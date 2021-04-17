@@ -1,0 +1,118 @@
+Situation:
+Apply the knowledge about paddings and margins by styling 
+the overview page of a photography website.
+The basic structure of website is ready that contains
+a heading and images. 
+
+ 
+Task:
+The job is to drastically improve the website by adding CSS. 
+
+
+Action:
+HTML ->
+*. Code the doctype, html & body elements.
+1. Add the heading h2 titled, "Photos contributed by our users"
+2. Add six images, their links are,
+   "https://mimo.app/r/tree.png"
+   "https://mimo.app/r/trees.png"
+   "https://mimo.app/r/starrynight.png"
+   "https://mimo.app/r/lighthouse.png"
+   "https://mimo.app/r/pathway.png"
+   "https://mimo.app/r/ridge.png"
+3. Arrange the images in a 2*3 matrix. 
+4. Add the head tags and link element.
+
+CSS ->
+1. First let's make sure the images are small enough to fit
+   on the screen.
+   Create a rule for img elements with 'height' set to 100px.
+2. Set the 'width' to 100px.
+3. Set a 10px margin for all images.
+4. Add a 'border' property and set the values to 'solid olive'.
+5. Set the 'padding' to 5px.
+6. Now, let's make the h2 element look nicer too.
+   Start by creating a rule for h2 and 
+   setting the 'background-color' to lightGrey.
+7. Set the 'margin' property to 10px.
+8. Set 'padding-top' to 30px.
+9. Set 'padding-bottom' to 10px.
+10. The heading is wider than both the images.
+    If we add the width of the images, margins and paddings, it sums upto 250px.
+    Match up the sizes by setting width to 250px for the heading.
+11. The heading is not completely aligned with the images because it has no border.
+    Add a border property and set it to 'solid olive'.
+12. Finally, center the text.
+    Set the 'text-align' property to center.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Situation:
+In this project, we'll build a landing page for a streaming service. 
+
+ 
+Task:
+This is how the finished project looks, with the paddings, margins,
+width and height all set. 
+Part I
+Add the homeflix image in the index page.
+
+Part II
+Time to add some headings and paragraphs.
+
+Part III
+Basic structure of the website is ready.
+It's time to add some style with CSS.
+
+Part IV
+We're almost there. All we have to do now is style the text 
+by adding paddings and margins.
+
+ 
+Action:
+HTML ->
+Part I
+*. Code the doctype, html and body elements.
+1. Now code the head element and link element inside it.
+2. Create an img element with src as "https://getmimo.com/r/homeflix.png"
+
+Part II
+1. Code the h1 element titled, "See what's next".
+2. Code the h3 element titled, "Watch anywhere, but mostly from home".
+3. Create a link to signup page that displays "Try 30 days Free"
+   with src as "https://mimo.app/r/homeflix.html".
+4. Create a paragraph that displays "Watch TV shows and movies anytime, anywhere". 
+
+
+CSS ->
+Part I
+1. Create a rule for body tags and add background color as black.
+2. The text became invisible. To make it visible again,
+   add color as white in body rule.
+3. Set the text-align property to center to make everything on the
+   webpage horizontally centered.
+4. Add 'font-family' as 'Verdana, sans-serif' to change the font.
+5. We'll add some breathing room.
+   At the top of the style sheet, add a rule for all img elements,
+   and set 'margin' to 40px.
+6. Set the height to 40px and width to 150px.
+
+Part II
+1. Let's make the link color match the logo. 
+   Add a rule for all the link elements and set color to red.
+2. Let's add some space between the logo and the heading.
+   Add a rule for all h1 elements and set 'margin-top' to 30px.
+3. Add a rule for all h3 elements and set 'margin' to 20px.
+4. Now let's make the paragraph stand out.
+   First, add a rule for all p elements and set background color to dimGray.
+5. Let's push the paragraph out of the way so that the heading and link
+   are the main focus of the page. Set the 'margin-top' to 80px.
+6. Now, we'll give the paragraph some breathing room.
+   Set margin left to 30px.
+7. Set margin right to 30px.
+8. And finally let's add some space inside the paragraph.
+   Set padding to 20px.

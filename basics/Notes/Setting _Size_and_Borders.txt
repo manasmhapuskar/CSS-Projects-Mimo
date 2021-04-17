@@ -1,0 +1,39 @@
+Situation:
+Practice the knowledge of resizing elements and adding borders
+by coding parts of an education app. 
+
+ 
+Task:
+The app uses HTML and CSS to display information to its users
+about different countries. 
+
+
+Action:
+HTML ->
+*. Code the doctype, html and body element.
+1. Add the h3 heading titled, "Facts about Greece".
+2. Create two paragraphs by the text,
+   "Population: 10.77 million"
+   "Fun Fact: considered by most to be the birthplace of democracy."
+3. Add an image with source,
+   "https://mimo.app/r/greece.png"
+4. Add the head tags and link tags with attributes.
+5. Identify first paragraph as "population".
+6. Identify the next paragraph as "funFact".
+7. Identify the image as "photo". 
+
+CSS ->
+1. Code the rule for the "photo" class.
+   Set the height to 100px and width to 200px
+2. Let's round off the corners of the image.
+   Set the border-radius property to 30px.
+3. Now, set the rules for other paragraphs.
+   Add a rule for all elements of the "population" class and
+   a rule for all elements of the "funFact" class.
+4. Use borders with different colors to make the facts stand out.
+   Set the border property to 'solid 5px plum'.
+5. Add a green border around the fun fact.
+   Set the border property to 'solid 5px green'.
+6. Now round off the corners of paragraph.
+   Start with an empty rule for all paragraphs.
+7. Set the border radius property to 10px.

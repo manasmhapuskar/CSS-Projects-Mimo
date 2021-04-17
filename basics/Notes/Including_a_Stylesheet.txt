@@ -1,0 +1,40 @@
+Situation:
+Apply the knowledge of style sheets by helping a sports 
+website cover the International Paintball Championship. 
+
+
+Task:
+Use CSS to highlight important information, like the names
+of dueling teams and the team captains. 
+
+
+Action:
+HTML ->
+*. Code the doctype, html and body elements.
+1. Add the correct headings, starting with the biggest
+   "Paintball Championship"
+2. After that add the sub-headings, "Crimson Menace" & "Teal Team 6".
+3. It's time to add 3 team members of the first team.
+   Create the ol and li elements.
+4. Now the second team comes into play.
+   Create the ol and li elements.
+5. Now the basic webpage is ready. It's time to add some style.
+   Let's include a style sheet.
+6. Add a head element and a 'link' element inside it.
+7. Add the 'rel' attribute and set it to 'stylesheet'.
+8. Set the href attribute to 'style.css'.
+9. Before jumping to the style sheet, lets add the 'class'
+    attribute to a few elements.
+    Give the first team a class of "teamCrimson".
+    Give the second team a class of "teamTeal".
+10. We want to spot the captains of both team easily.
+    Give the first li element of both teams a class of "captain".
+11. The webpage is all done; now we can move to the style sheet.
+
+CSS ->
+1. Add a CSS selector. Type in .teamCrimson.
+2. Set the 'color' property to 'crimson'.
+3. Add a class selector for the element with the class "teamTeal".
+4. Set the 'color' property to 'teal'.
+5. Add a class selector for the elements with the class "captain".
+6. Set the 'font-weight' property to 'bold'. 
