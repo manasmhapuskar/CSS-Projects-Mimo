@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h3 {
+    font-family: courier new;
+    font-style: italic;
+    transform: rotate(-8deg);
+    margin: 50px;
+}
+
+img {
+    transform: rotate(-25deg);
+    border-radius: 150px;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: monospace;
+}
+
+img {
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    filter: saturate(75%) brightness(80%) contrast(150%);
+}
+
+p {
+    font-size: 20px;
+}

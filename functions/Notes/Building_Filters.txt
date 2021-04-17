@@ -1,0 +1,100 @@
+Situation:
+A softwre company called Mudcap is prototyping an app for
+batch editing photos and they've asked us to create some filters 
+
+ 
+Task:
+We'll start off with the app name, a few images on the webpage and
+a blank CSS file. Let's get styling. 
+
+ 
+Given:
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <div>
+            <h1>Darkroom</h1>
+            <img src = "https://mimo.app/i/bank-lobby.png" alt = "" title = "">
+            <img src = "https://mimo.app/i/loft.png" alt = "" title = "">
+            <img src = "https://mimo.app/i/lakeside.png" alt = "" title = "">
+        </div>
+    </body>
+</html> 
+
+
+Action:
+1. Add a body selector and set background color to slateGray.
+2. To turn the font white, set color to white.
+3. Set text-align to center.
+4. Now, we'll work on the images and try out some filters.
+   Start by adding an img selector and setting the margin to 10px 0 20px 0.
+5. Set border to solid 2px aliceBlue.
+6. Now, let's prototype some filter possibilities.
+   As a first step, try to saturate images by reducing it to 75%.
+7. Let's add more punch by coding contrast(80%) after saturate().
+8. Let's try something different by changing saturate(75%) to grayscale(100%).
+9. It seems like a bit more contrast would help.
+   Set contrast to 120%.
+10. Let's make our images more vivid this time.
+    Change filter to saturate(200%) and brightness(110%).
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+Situation:
+Let's refine our filter building skills by styling a
+part of a photography website. 
+
+
+Task:
+We'll start with the photograph along with some styling 
+and we'll experiment with filters until we get something we like. 
+
+
+Given:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <img src = "https://mimo.app/i/sea-of-clouds.png" alt = "" title = "">
+        <p><em>White Sea of Clouds</em> | Szabo Viktor | 2018</p>
+    </body>
+</html>
+
+CSS Code ->
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: monospace;
+}
+
+img {
+    background-color: white;
+    border: solid 2px black;
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+} 
+
+
+Action:
+1. Let's start by setting the image's brightness to 50%.
+2. That doesn't quite work. 
+   Let's try increasing the brightness to 80%.
+3. Let's add extra functions.
+   Set the saturation of the image to its default level.
+4. Let's try making the colors a bit less vivid.
+   Adjust saturation to 75%.
+5. Use the right function to decrease the contrast between
+   the lighter and the darker parts of the photograph by 50%.
+6. Doesn't really work. 
+   Let's increase the contrast to 150% instead. 

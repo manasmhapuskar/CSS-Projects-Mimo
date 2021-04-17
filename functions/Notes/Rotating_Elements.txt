@@ -1,0 +1,50 @@
+Situation:
+There are many types of apps for musicians.
+One of the most common being guitar tuner apps. 
+
+
+Task:
+With the help of a CSS function, we'll prototype the interface of a
+brand new guitar tuning app by rotating some images. 
+
+
+Given:
+HTML Code
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+        <body>
+            <h3>Decibel tuner</h3>
+            <p>D ------- D# ------- E ------- F ------- F#</p>
+            <p>|_______|___ 82.4Hz ___|_______|</p>
+            <img src = "https://mimo.app/r/needle.png" alt = "" />
+        </body>
+    </head>
+</html>
+
+CSS Code
+body {
+    text-align: center;
+    background-color: lightBlue;
+}
+
+h3 {
+    font-family: Courier New;
+}
+
+
+Action:
+1. We'll start by rotating the app heading. 
+   For that we'll need the 'transform' property.
+2. Add the 'rotate()' CSS function.
+3. To give the heading a fresh vibe set 'rotate()' to '-8deg'.
+4. Finish the styling by setting 'font-style' to 'italic'
+5. To prepare the image for rotating, start by adding the img selector.
+6. To prevent the image corners from overlapping the paragraphs when rotating,
+   set the radius to 150px around all the corners.
+7. Add the property and function necessary to rotate this image,
+   the 'transform' property.
+8. Let's test it!
+   Add '-30deg' to show that the guitar string is tuned lower in frequency than it should be.
+9. Now add 45deg to show that the guitar string is higher in frequency than it should be. 

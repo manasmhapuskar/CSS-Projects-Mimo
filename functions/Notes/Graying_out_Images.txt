@@ -1,0 +1,110 @@
+Situation:
+A coding platform is preparing a special website for Halloween. 
+They've asked us to use CSS to make it spookier for the occasion 
+
+ 
+Task:
+We have headings, paragraphs, images and empty links.
+All that's left is to finish working on the CSS.
+
+ 
+Given:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h2>Programming Mysteries</h2>
+        <a href = "">Find out what line breaks really do to your HTML</a>
+        <br>
+        <img src = "https://mimo.app/i/ghost-small.png" alt = "" title = "">
+        <br>
+        <a href = "">Learn what bug Whiskers found in his code</a>
+        <br>
+        <img src = "https://mimo.app/i/whispurr.png" alt = "" title = "">
+        <h2>Submit your own scary story</h2>
+        <p>
+            Have a scary story of your own?
+            Email us for a chance to get featured in next month's issue!
+        </p>
+    </body>
+</html>
+
+CSS Code ->
+body {
+    text-align: center;
+    font-family: Monospace;
+}
+
+
+Action:
+1. Start by adding an h2 selector and filter: blur(1px)
+   inside of it.
+2. Next, add an image selector.
+3. Set the filter property to grayscale(100%) for all images.
+4. Add a bit more of space around the images by setting the margins.
+5. Style the links using an a selector by setting color to black
+   and background color to lightGray.
+6. Add the filter property and set opacity to 60%.
+7. Add a p selector and set background color to lightGray.
+8. Set the paragraph opacity to 40%. 
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+Situation:
+An E-commerce company is about to launch and they've asked
+for your help in designing a webpage for out of stock products. 
+
+ 
+Task:
+Most of their webpage is already coded.
+All we have to do is add some CSS to show the items are out of stock. 
+
+ 
+Given:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h1>Zbay</h1>
+        <img src = "https://mimo.app/i/phone.png" alt = "" title = "">
+        <h3>Yphone Model X</h3>
+        <div>
+            <a href = "">S</a>
+            <a href = "">XL</a>
+            <a href = "">Black</a>
+            <a href = "">White</a>
+        </div>
+        <button>Add to basket</button>
+    </body>
+</html> 
+
+CSS Code ->
+button {
+    margin-top: 30px;
+    background-color: gold;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+Action:
+1. Start by adding a 10px padding to the button.
+2. Add border and set it to solid 1px black.
+3. To make the button more interactive, 
+   set filter to grayscale(80%).
+4. Style the links using an a selector and
+   setting the background color to lightGray.
+5. Set the padding to 10px.
+6. Set the border to solid 1px black.
+7. To make the links appear inactive as well,
+   set 'filter' to opacity(50%).

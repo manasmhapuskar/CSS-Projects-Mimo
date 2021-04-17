@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+p {
+    filter: blur(10px);
+}
+
+img {
+    height: 150px;
+    margin: 20px;
+}
+
+div {
+    filter: blur(10px);
+}
