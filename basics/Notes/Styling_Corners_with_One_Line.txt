@@ -1,0 +1,66 @@
+Situation:
+An exciting new startup has asked for your help in improving
+their weekly email newsletter. 
+Their current email has the margins set wrong, meaning there's
+too little space between elements.
+
+HTML Code:
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css" type = "text/css" />
+    </head>
+    <body>
+        <h2>Challenges - Coding Brain Teasers</h2>
+        <img src = "https://mimo.app/r/maze.png" />
+        <p>
+            Mimo challenges are code-based teasers designed to improve 
+            your programming skills and sharpen your problem-solving abilities.
+        </p>
+        <button>OPEN THE APP</button>
+        <p>
+            Stay tuned! More fresh skills on learning how to code 4
+            will be coming your way next week.
+        </p>
+    </body>
+</html>
+
+CSS Code:
+body {
+    text-align: center;
+}
+
+h2 {
+    margin: 40px 0 0 0;
+}
+
+img {
+    border-radius: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: purple;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+} 
+
+
+Task:
+Correct the newsletter with the help of your knowledge with margins. 
+
+
+Action:
+1. As first step, give the heading some space by setting
+   'margin' to 40px 30px 30px 30px.
+2. To add more space at the top of paragraphs, 
+   set 'margin' to 30px 0 0 0 as well.
+3. We can see that adding space to the sides would help,
+   so adjust the side margins by adding 30px 0 30px
+4. To add more space at the top of the button,
+   set 'margin' to 30px 0 0 0. 

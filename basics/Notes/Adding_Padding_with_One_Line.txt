@@ -1,0 +1,35 @@
+Situation:
+Let's use paddings to illustrate how email apps can change 
+how they display their emails. 
+
+ 
+Task:
+We'll switch between compact, default and comfortable view
+settings by setting different padding values for each. 
+
+
+Action:
+HTML ->
+*. Code the doctype, html and body elements.
+1. Code the head and link elements.
+2. Add an h3 heading titled, "Inbox".
+3. Add four paragraphs differently displaying,
+   "Multivitamins with multiple savings"
+   "Mom - Why do you never call or write?"
+   "Zbay - Your package is on it's way!"
+   "An Update from Mimo" 
+
+CSS ->
+1. The first step is adding the p selector.
+2. Set the border to solid 1px gray.
+3. To make emails stand out,
+   set background color to lightSteelBlue.
+4. To make it more like an email app with messages displaying
+   directly below each other, set margin to 0.
+5. Before adding the individual paddings, add the padding property.
+6. To show the compact view, ensure there's no space 
+   at the top or bottom of emails by setting padding to 0 10px 0 10px.
+7. To show the default view add more space to the top and bottom by
+   setting the padding to 10px 20px 10px 20px.
+8. For the comfortable view, which has lot of space, 
+   add more padding on each side with 30px 25px 15px 25px.

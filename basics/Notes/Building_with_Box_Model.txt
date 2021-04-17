@@ -116,3 +116,100 @@ Part II
 7. Set margin right to 30px.
 8. And finally let's add some space inside the paragraph.
    Set padding to 20px.
+
+
+
+---------------------------------------------------------------------------------------------------
+
+
+ 
+Situation:
+In this project, we'll practice setting individual margins,
+paddings and border radiuses in one line.
+
+We'll do that by polishing up the design of a small business website.
+Here's a peek at the finished product. 
+
+We've already added the webpage structure and a few styles inside 
+style.css.
+
+HTML ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    </head>
+    <body>
+        <h2>Fast Furniture</h2>
+        <div>
+            <img src = "https://mimo.app/i/minimalist-living-room.png" alt = "" />
+            <img src = "https://mimo.app/i/modern-living-room.png" alt = "" />
+            <img src = "https://mimo.app/i/cozy-living-room.png" alt = "" />
+        </div>
+        
+        <button>Open Catalogue</button>
+        <p>
+            All furniture made for fast shipping and easy assembly!
+        </p>
+    </body>
+</html>
+
+CSS ->
+body {
+    text-align: center;
+}
+
+h2 {
+    background-color: aliceBlue;
+}
+
+img {
+    width: 100px;
+    height: 60px;
+    background-color: lightBlue;
+}
+
+button {
+    background-color: darkCyan;
+    color: white;
+}
+
+p {
+    background-coloe: aliceBlue;
+}
+
+
+Task:
+Let's work on those final touches! 
+
+Part II
+So far we've styled the heading and the images.
+Let's add some final touches to the button and paragraph.
+
+
+Action:
+Part I
+1. Set the margin for the h2 element by coding,
+   'margin' to 40px 30px 30px 30px.
+2. Give the webpage's heading a unique style by coding,
+   'border-radius' to 0 30px 30px 0.
+3. Now add a bit of padding to images by coding,
+   'padding' to 10px.
+4. Add some space around the images by coding,
+   'margin' to 10px 5px 0 5px.
+5. Round off the corners of images by coding,
+   'border-radius' to 20px.
+
+Part II
+1. Add some padding around the button by coding,
+   'padding' to 5px 15px 5px 15px.
+2. Add some space at the top of the button by coding,
+   'margin' to 25px 0 0 0.
+3. Style the button's corners by coding,
+   'border-radius' to 0 30px 30px 0.
+4. Add some padding around the paragraph by coding,
+   'padding' to 5px 10px 5px 10px.
+5. Add some space arount the paragraph by coding,
+   'margin' to 30px 30px 0 30px.
+6. Style the paragraph's corners by coding,
+   'border-radius' to 15px 0 15px 0.
