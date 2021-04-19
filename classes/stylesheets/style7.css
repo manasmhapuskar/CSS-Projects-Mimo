@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: arial;
+}
+
+img {
+    width: 110px;
+}
+
+button {
+    background-color: gold;
+    padding: 5px;
+
+}
+
+.product {
+    border: 1px solid black;
+    width: 120px;
+    padding: 10px;
+    margin: auto;
+}
+
+.price {
+    color: green;
+    font-size: 20px;
+}
+
+.oldPrice {
+    color: gray;
+    font-size: 12px;
+}

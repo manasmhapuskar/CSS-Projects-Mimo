@@ -1,0 +1,19 @@
+div {
+    border: 2px ridge gray;
+    font-size: 0;
+}
+
+.gaming {
+    background-color: cyan;
+    width: 40%;
+}
+
+.movies {
+    background-color: bisque;
+    width: 35%;
+}
+
+.music {
+    background-color: pink;
+    width: 25%;
+}

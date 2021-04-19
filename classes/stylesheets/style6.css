@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.pricing {
+    border: 2px solid indigo;
+    padding: 0px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.header {
+    background-color: indigo;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.get-started {
+    margin-bottom: 20px;
+}
+

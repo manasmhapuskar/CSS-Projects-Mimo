@@ -1,0 +1,108 @@
+Situation:
+Let's learn how to create progress bars with the help of percentages. 
+
+
+Plan:
+We already have the HTML, along with some style rules 
+for div and p elements. 
+
+
+Availability:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h1>Progress Bars</h1>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <p></p>
+        </div>
+    </body>
+</html>
+
+CSS Code ->
+div {
+    border: solid 2px black;
+    margin: 5px;
+}
+
+p {
+    height: 50px;
+    margin: 0;
+} 
+
+
+Action:
+1. Start the setting the class attribute for the first p element
+   to the value "full".
+2. Add the class name half to the second p element.
+3. Last, add the class name low to the last p element.
+4. Create an empty rule for the .full class.
+5. Set the width to 100%.
+6. Set background color to green (hex code).
+7. Add two more rules. The first, for a class called .half,
+   and the second for a class called .low.
+8. For elements of class .half, set width to 50% and
+   background-color to orange (hex code).
+9. For the elements of class .low, set width to 10% and
+   background color to red (hex code).
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+Situation:
+Let's advance our skills by working on an app that
+displays the amount of time apps are used on a phone.
+
+
+Plan:
+We'll start off with the HTML code and
+some styles for HTML elements. 
+
+
+Availability:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h2>Screen Time</h2>
+        <div>
+            <button>Gaming<br>40%</button>
+            <button>Movies<br>35%</button>
+            <button>Music<br>25%</button>
+        </div>
+    </body>
+</html>
+
+CSS Code ->
+div {
+    border: ridge 2px gray;
+    font-size: 0;
+} 
+
+
+Action:
+1. Set the first button's class attribute to the value 'gaming'.
+2. Add class 'movies' to the second button element.
+3. Set the third button's class attibute to 'music'.
+4. Create an empty rule for the .gaming class selector.
+5. Style the .gaming class by setting width to 40% and
+   background color to skyblue (hex code).
+6. Style the .movies class by setting width to 35% and
+   background color to wheat (hex code).
+7. Style the .music class by setting width to 25% and
+   background color to pink (hex code).

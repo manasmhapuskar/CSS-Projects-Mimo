@@ -1,0 +1,26 @@
+div {
+    border: 2px solid black;
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+}
+
+p {
+    height: 50px;
+    margin: 0;
+}
+
+.full {
+    background-color: #00ff00;
+    width: 100%;
+}
+
+.half {
+    background-color: #ffa500;
+    width: 50%;
+}
+
+.low {
+    background-color: #ff0000;
+    width: 10%;
+}
