@@ -1,0 +1,102 @@
+Situation:
+Let's use our knowledge of div elements to
+style a web music player
+
+ 
+Task:
+To prototype how the web page will look,
+we added images for the buttons, along with some styles.
+All that's left is styling the icons. 
+
+ 
+Available:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <p>Currently playing: </p>
+        <h5>The Peanutbutterers - Where's My Jelly At</h5>
+        <img src = "https://mimo.app/i/player-button-previous.png" alt = "" title = "">
+        <img src = "https://mimo.app/i/player-button-play.png" alt = "" title = "">
+        <img src = "https://mimo.app/i/player-button-previous.png" alt = "" title = "">
+        <img src = "https://mimo.app/i/player-button-next.png" alt = "" title = "">
+    </body>    
+</html> 
+
+CSS Code ->
+body {
+    background-color: azure;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+
+Action:
+1. Next, add an empty rule for the div selector.
+2. Inside the div rule, center the group of icons we just created.
+3. Highlight the group of icons by setting background color to lightCyan.
+4. Set padding to 15px for the div element.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Situation:
+To practice styling groups of elements some more,
+let's style a chatbox containing a message from a bot. 
+
+ 
+Task:
+We already have some headings, paragraphs, and some basic styles.
+We'll make the text in the message appear in a message bubble. 
+
+ 
+Available:
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h3>You have 1 unread message(s): </h3>
+        <h5>Arnold</h5>
+        <p>
+            beep beep beep Hello there!
+        </p>
+        <p>
+            I am A21016, but friends call me Arnold. I'm here to help.
+        </p>
+        <p>
+            How can I help you today?
+        </p>
+    </body>
+</html>
+
+CSS Code ->
+body {
+    background-color: aliceBlue;
+}
+
+h5 {
+    color: gray;
+    margin: 0 0 0 30px;
+} 
+
+
+Action:
+1. Let's begin by grouping the paragraph element inside a div element.
+2. Next, start styling the group of paragraphs
+   by adding the div selector and the braces.
+3. Inside the div rule, set border radius to 10px.
+4. Make the message in the chatbox stand out by
+   setting background color to lightBlue.
+5. Improve the layout of the chatbox by
+   setting margin to 20px and padding to 10px.

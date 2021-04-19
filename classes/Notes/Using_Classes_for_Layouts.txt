@@ -1,0 +1,54 @@
+Situation:
+Let's use our knowledge of classes to build a user dashboard. 
+
+
+Plan:
+We'll start with three div elements that 
+contain content but haven't been styled.
+
+
+Avalability:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <div>
+            <h2>Dashboard</h2>
+        </div>
+        <div>
+            Profile
+            Messages
+            Settings
+            Help
+        </div>
+        <div>
+            <img src = "https://bit.ly/2WkDp5F" alt = "" title = "">
+            <h4>Joe Dramatic</h4>
+            <h5>5 million followers</h5>
+        </div>
+    </body>
+</html>
+
+CSS Code ->
+img {
+    width: 100px;
+} 
+
+
+Action:
+1. Set the first div element's class to 'title'.
+2. Set the second div element's class to 'navigation'.
+3. Set the third div element's class to 'content'. 
+4. Add a rule that sets background color to coral
+   for elements of the title class.
+5. Create a rule that styles elements of the navigation class
+   with background color set to lightCoral and color set to white.
+6. Style elements of the content class with background color set to
+   linen and text-align set to center.
+7. Let's apply a style to all div elements by creating a rule
+   that sets margin bottom to 10px.
+8. To give tidy up the layout, use the div selector to set
+   border radius to 5px and padding to 12px for all div elements.

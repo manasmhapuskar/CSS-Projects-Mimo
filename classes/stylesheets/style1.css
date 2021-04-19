@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}
+
+div {
+    background-color: lightcyan;
+    text-align: center;
+    padding: 20px;
+}
