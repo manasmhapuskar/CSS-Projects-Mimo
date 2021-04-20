@@ -1,0 +1,26 @@
+div {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.day {
+    background-color: bisque;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+.today {
+    border: 3px solid gray;
+    font-weight: bold;
+}
+
+.past {
+    background-color: lightgray;
+    color: gray;
+}
+
+.weekend {
+    background-color: plum;
+    font-style: italic;
+}

@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    border: 2px ridge black;
+    font-size: 0;
+    width: 400px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: right;
+    font-size: 25px;
+}
+
+button {
+    width: 25%;
+    height: 35px;
+}
+
+.clear {
+    width: 50%;
+    background-color: #ffa500;
+}
+
+.submit {
+    width: 50%;
+    background-color: #00ff00;
+}

@@ -1,0 +1,22 @@
+body {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.title, #checkout {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.item {
+    border: 1px solid brown;
+    margin: 10px;
+    text-align: right;
+}
+
+.itemName, .quantity, button {
+    font-size: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,14 @@
+body, button {
+    font-family: courier new;
+    text-align: center;
+}
+
+input, button {
+    width: 30%;
+    height: 25px;
+    margin: 10px;
+}
+
+#name, #email {
+    border: 2px solid coral;
+}

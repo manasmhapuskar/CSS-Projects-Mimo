@@ -1,0 +1,19 @@
+div {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.dark, .light {
+    width: 120px;
+    height: 120px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.dark {
+    background-color: black;
+}
+
+.light {
+    background-color: lightgray;
+}

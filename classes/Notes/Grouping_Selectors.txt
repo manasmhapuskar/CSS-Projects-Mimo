@@ -1,0 +1,132 @@
+Problem:
+Time to practice our skills on grouping selectors by
+making a small part of a checkers board game 
+
+
+Available:
+We already have a heading and a few empty buttons as our HTML code.
+HTML Code ->
+<!doctype html>
+<html>
+    <body>
+        <h2>Checkers Pattern</h2>
+        <button></button>
+        <button></button>
+        <br>
+        <button></button>
+        <button></button>
+    </body>
+</html> 
+
+
+Solution:
+1. Add the class name 'dark' to the first and last button elements.
+2. Add the class name 'light' to the second and third button elements.
+3. Code '.dark', '.light' to create a grouping selector for both classes.
+4. Style the grouping selector by setting the width to 100px,
+   height to 100px and border to none.
+5. Create an empty rule for elements of class '.dark'.
+6. Create an empty rule for elements of class '.light'.
+7. Set background color to black for elements of '.dark' and
+   background color to lightgray for '.light' elements.
+
+
+
+---------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use a grouping selector to design a Contact form.
+
+
+Available:
+We already have some elements inside the webpage.
+A heading, three input fields and a button.
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h2>Contact Form</h2>
+        <input placeholder = "Name">
+        <input placeholder = "Email">
+        <input placeholder = "Message">
+        <button>Send</button>
+    </body>
+</html>
+
+
+Solution:
+1. Assign the id called 'name' to the first input element and
+   an id of 'email' to the second input element. 
+2. Center the form by styling the rule for the body selector and
+   setting text-align to center.
+3. Code h2, button selector to create a grouping selector.
+4. Set font-family to CourierNew.
+5. Create another grouping selector by coding input, button
+   followed by the braces.
+6. Set width to 70%, margin to 10px and padding to 5px.
+7. Code #name, #email to create a grouping selector 
+   for the two elements.
+8. Set border to 2px solid coral. 
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Up next, let's work on using the grouping selector
+to design an online shopping cart 
+
+
+Available:
+To make things faster, we've added headings, div elements and
+buttons inside index.html and centered the page in style.css
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h2>Cart</h2>
+        <div>
+            <span>Bananas</span>
+            <span>x6</span>
+            <button> - </button>
+            <button> + </button>
+        </div>
+        <div>
+            <span>Oranges</span> 
+            <span>x2</span>
+            <button> - </button>
+            <button> + </button>
+        </div>
+        <button>Checkout</button>
+    </body>
+</html>
+
+CSS Code ->
+body {
+    text-align: center;
+}
+
+
+Solution:
+1. Give two div elements to the class name 'item'.
+2. Add class 'itemName' to the first span in each div element and
+   class 'quanity' to the second span in each div element.
+3. Assign an 'id' name of checkout to the last button.
+4. Create a rule for elements of class '.item' and set text align to right, 
+   border to 1px solid brown and margin to 10px.
+5. Create an empty rule with a grouping selector for all three classes
+   by coding '.itemName','.quantity' and 'button' followed by braces.
+6. Set the font size to 20px and margin to 5px.
+7. Create zn empty rule with a grouping selector by coding
+   h2, #checkout followed by braces. Make sure to add a space after comma.
+8. Set background color to brown, color to white and padding to 10px.

@@ -106,3 +106,72 @@ Action:
    background color to wheat (hex code).
 7. Style the .music class by setting width to 25% and
    background color to pink (hex code).
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+Situation:
+Let's polish our skills on percentages by styling
+a calculator interface 
+
+
+Plan:
+We already have the HTML. We'll control the calculator through
+the buttons and display the results in the first paragraph.
+
+
+Availability:
+HTML Code ->
+<!doctype html>
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h1>Calculator Interface</h1>
+        <div>
+            <p>0.</p>
+            
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>x</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>/</button>
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+
+            <button>.</button>
+            <button>0</button>
+            <button>%</button>
+            <button>_</button>
+            <button>AC</button>
+            <button>=</button>
+        </div> 
+    </body>
+</html> 
+
+
+Action:
+1. Code class 'clear' inside the 'AC' button.
+2. Code class 'submit' inside the '=' button.
+3. First, create an empty rule for div elements.
+4. Style the div element by setting border to 2px solid gray and
+   font size to 0 to avoid space between the buttons.
+5. Create a rule for button elements and 
+   then set width to 25% and height to 35px.
+6. Style the 'clear' class by setting width to 50% and
+   background color to orange.
+7. Style the 'submit' class by setting width to 50% and
+   background color to lightgreen.
+8. Style the p element by setting the text alignment to right and
+   font size to 15px to make the display website. 

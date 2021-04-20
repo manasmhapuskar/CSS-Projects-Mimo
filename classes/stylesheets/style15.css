@@ -1,0 +1,17 @@
+.email {
+    border: 2px solid gray;
+    padding: 8px;
+    width: 700px;
+    margin: 5px;
+}
+
+.unread {
+    background-color: #800080;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.spam {
+    font-style: italic;
+    color: #ff7f50;
+}
