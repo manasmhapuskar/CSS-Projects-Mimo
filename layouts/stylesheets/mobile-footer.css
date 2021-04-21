@@ -1,0 +1,20 @@
+.footer-menu-div {
+    background-color: lavender;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-item-a {
+    background-color: plum;
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-copyright-span {
+    background-color: purple;
+    color: snow;
+    display: block;
+}

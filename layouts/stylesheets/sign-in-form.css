@@ -1,0 +1,23 @@
+#email-input,
+#password-input,
+#log-in-button {
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.forgot-password-link {
+    display: inline-block;
+    color: red;
+    width: 310px;
+    text-align: center;
+
+}
+
+.social-media-tags {
+    display: inline-block;
+    background-color: plum;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,111 @@
+Problem:
+Let's practice the 'float' property by designing a question card,
+a popular way to display a question and who's asking it.
+
+
+Available:
+We'll start with all of the HTML already added along with a bit
+of style for the div element which makes up the card
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <div>
+            <img src = "https://mimo.app/i/babaganoosh.png" alt = "">
+            <p><strong>Baba Ganoosh.</strong> 
+                3d ago
+                <br>
+                <em>Real Estate Developer</em>
+            </p>
+            <h2>Who let the dogs out?</h2>
+            <p>
+                There has been a serious argument between the residents
+                of Chase Street and Terrence Avenue. 
+                No one seems to know who let the ...
+                <em>Read more</em>
+            </p>
+            <h6>10k views</h6>
+        </div>
+    </body>
+</html>
+
+CSS Code ->
+div {
+    width: 300px;
+    border: 1px solid lightGray;
+    padding: 10px;
+}
+
+
+Solution:
+1. Create an empty rule for img element.
+2. Set the width of image to 70px.
+3. To make image stick to the left side, code float to left.
+4. Add space around the image by setting margin to 5px.
+5. Make the image round by setting border-radius to 50%.
+6. Create an empty rule for h2 element.
+7. Make sure the h2 element starts on a new line below the image
+   by coding clear to left.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use the float property to style an app profile page.
+We'll use the property to place images in different places on the page.
+
+
+Available:
+We'll start off with images and headings added and their classes already set.
+We also styled the div element that contains the profile.
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <img class = "logo" src = "https://mimo.app/i/code-flag-2.png" alt = "">
+        <h2>Coders Group</h2>
+        
+        <div>
+            <img class = "profile" src = "https://mimo.app/i/dark-icon.png" alt = "">
+            <h4>@batmimo <br> Joined March 2050</h4>
+            <h5>
+                Bio: Java software engineer with a focus on APIs and
+                micro-services and took the plunge into Ruby just this May.
+            </h5>
+        </div>
+    </body>
+</html>
+
+CSS Code ->
+div {
+    width: 300px;
+    background-color: lavender;
+    padding: 15px;
+    margin: 5px;
+}
+
+img {
+    width: 100px;
+}
+
+
+Solution:
+1. Create an empty rule for the .logo class.
+2. Make the logo stay on the left side by coding 'float' to 'left'.
+3. To make the div element not wrap around the image,
+   code 'clear' to 'left'.
+4. Create an empty rule for elements of class .profile.
+5. Make the profile picture stay on the right side of the text
+   by coding 'float' to 'right'.
+6. Create an empty rule for h5 element.
+7. Make the h5 element not wrap around the profile picture
+   by setting 'clear' to 'right'.

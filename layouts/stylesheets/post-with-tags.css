@@ -1,0 +1,28 @@
+.post-div {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid plum;
+}
+
+.post-info-em {
+    color: gray;
+}
+
+.post-text-p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tag-div {
+    display: inline;
+    background-color: plum;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.views-count-a {
+    color: purple;
+    display: block;
+    margin-top: 20px;
+}
