@@ -109,3 +109,69 @@ Solution:
 6. Create an empty rule for h5 element.
 7. Make the h5 element not wrap around the profile picture
    by setting 'clear' to 'right'.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use the 'float' property to design the page of 
+a brand new online bank.
+We'll use images to differentiate between translations.
+
+
+Available:
+We'll start off with the HTML coded, along with a few styles for
+images and div elements that represent different transfers.
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h1>Recent Transfers</h1>
+        
+        <div class = "credit">
+            <img class = "creditImage" src = "https://mimo.app/i/elijah.png" alt = "">
+            <h5>Received $50</h5>
+            <p class = "creditText">For Phone Bill</p>
+        </div>
+        
+        <div class = "debit">
+            <img class = "debitImage" src = "https://mimo.app/i/portrait-cv.png" alt = "">
+            <h5>Sent $1500</h5>
+            <p class = "debitText">For Macbook</p>
+        </div>
+    </body>
+<html>
+    
+CSS Code ->
+div {
+    width: 400px;
+    background-color: lavender;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 50px;
+}
+
+
+Solution:
+1. Start by creating an empty rule for the credit class
+   and set the background color to lime.
+2. Create an empty rule for the creditImage class
+   and code float to left to move the image to the left side.
+3. Create an empty rule for the creditText class.
+4. Make the creditText class not wrap around the image 
+   by setting clear to left.
+5. Create a selector for the debit class and
+   set the text align to right and set the background color to lightsalmon.
+6. Create an empty rule for the debitImage class and
+   float the image to the right.
+7. Create an empty rule for the debitText and
+   set the clear property to right.

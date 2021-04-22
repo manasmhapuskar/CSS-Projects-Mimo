@@ -1,0 +1,32 @@
+.transfers-in-div {
+    background-color: lime;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.credit-pp-img {
+    width: 80px;
+    float: left;
+}
+
+.credit-memo-p { clear: left; }
+
+.debit-pp-img {
+    width: 80px;
+    float: right;
+}
+
+.transfer-text-h5 { text-align: right; }
+
+.debit-memo-p {
+    clear: right;
+    text-align: right;
+}
+
+.transfers-out-div {
+    background-color: lightsalmon;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}

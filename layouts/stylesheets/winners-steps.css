@@ -1,0 +1,23 @@
+body {
+    padding: 10px;
+}
+
+.first-winner {
+    background-color: lavender;
+    padding: 20px;
+    position: relative;
+}
+
+.second-winner {
+    background-color: wheat;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.third-winner {
+    background-color: pink;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+}

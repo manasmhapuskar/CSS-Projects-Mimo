@@ -1,0 +1,23 @@
+.code-snippet-div {
+    background-color: #242533;
+    font-family: courier new;
+    font-weight: bold;
+    width: 500px;
+    padding: 5px;
+}
+
+.function-p {
+    color: #bfdaf9;
+}
+
+.if-stmt-p {
+    color: #43cbff;
+    position: relative;
+    left: 30px;
+}
+
+.return-stmt-p {
+    color: #62d76b;
+    position: relative;
+    left: 60px;
+}
