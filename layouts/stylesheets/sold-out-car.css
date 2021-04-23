@@ -1,0 +1,20 @@
+.car-img {
+    position: absolute;
+    z-index: -1;
+}
+
+.soldout-text-div {
+    background-color: coral;
+    width: 200px;
+    padding: 5px;
+    position: absolute;
+    top: 200px;
+}
+
+.soldout-price-p {
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    z-index: 1;
+}  

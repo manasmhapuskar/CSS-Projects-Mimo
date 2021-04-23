@@ -1,0 +1,20 @@
+.background-img {
+    width: 400px;
+}
+
+.image-title-h3 {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    padding: 5px;
+}
+
+.price-p {
+    background-color: darkgreen;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    padding: 5px;
+}

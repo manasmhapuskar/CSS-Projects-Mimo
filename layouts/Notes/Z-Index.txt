@@ -1,0 +1,180 @@
+Problem:
+Let's place a 'sold out' sign over an image of a car
+the same way an online auto dealership would.
+
+
+Available:
+We added the image of a car and a styled div element
+that displays 'Sold Out' so you can focus on positioning.
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <h2>Paddy Dealership</h2>
+        <img src = "https://mimo.app/i/car.png" alt = "">
+        <span class = "price">$25,000</span>
+        <div class = "sold">Sold out</div>
+    </body>
+</html>
+
+CSS Code ->
+img {
+    width: 200px;
+}
+
+.price {
+    color: white;
+}
+
+.sold {
+    background-color: coral;
+    padding: 5px;
+    width: 160px;
+} 
+
+
+Solution:
+1. To move the image over the 'sold out' sign,
+   set the 'position' property of the image to absolute.
+2. Place the img element behind all others 
+   by setting the z-index to -1.
+3. Add position absolute to both the 'sold' and 'price' classes.
+4. Move the "sold out" sign by setting top to 150px
+   for elements of the 'sold' class.
+5. Move the element of the price class down
+   by setting the top to 155px.
+6. Move the price over the sold out sign 
+   by adding z-index to 1 to the price class.
+7. Place the price class in a better position
+   by setting left to 100px.
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's use absolute positioning to design a book cover.
+
+
+Available:
+We added an image and some styled paragraphs to get you started
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <img src = "https://mimo.app/i/whiskers.png" alt = "">
+        <p class = "title">CATMAN</p>
+        <p class = "author">by James Connor</p>
+    </body>
+</html>
+
+CSS Code ->
+img {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+}
+
+p {
+    position: absolute;
+    background-color: wheat;
+    padding: 5px;
+}
+
+.title {
+    width: 200px;
+}
+
+
+Solution:
+1. Place the element of the title class over the image
+   by setting z-index to 2.
+2. Center elements of the title class 
+   by setting text-align to center.
+3. To make the element of the title class fit inside 
+   the book cover, set padding 10px 0px 10px 0px.
+4. Create an empty rule for the author class.
+5. Place the element of the author class over the image
+   by setting z-index to 2.
+6. Move the element of the author class lower
+   by setting top to 220px.
+7. Style the author class by setting font style to italic.
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's code a bull's eye target by setting the 'z-index' on elements.
+
+ 
+Available:
+To get you started, we added three styled div elements
+that display red, white and black circles on the webpage.
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <div class = "small"></div>
+        <div class = "medium"></div>
+        <div class = "large"></div>
+    </body>
+</html>
+
+CSS Code ->
+body {
+    height: 250px
+}
+
+div {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.large {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.medium {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+}
+
+.small {
+    background-color: crimson;
+    width: 50px;
+    height: 50px;
+}
+
+
+Solution:
+1. Get started on the base of the target by setting
+   the z-index of the large class to 1.
+2. To show the circle of the medium class over the base circle,
+   set its z-index to 2.
+3. Center the circle of the medium class vertically
+   by setting top to 50px.
+4. Center the medium class horizontally
+   by setting left to 50px.
+5. To place it over the circle of medium class,
+   set the z-index of the small class to 3.
+6. Center the circle of the small class vertically
+   by setting top to 85px.
+7. Center the circle of the small class horizontally
+   by setting left to 85px.

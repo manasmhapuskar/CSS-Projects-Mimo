@@ -1,0 +1,88 @@
+Problem:
+Let's design a room listing using absolute positioning.
+
+
+Available:
+We added an image and some styled text to get you started
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <img src = "https://mimo.app/i/homekia-bedroom.png" alt = "">
+        <h4>PARIS</h4>
+        <p>$65/night</p>
+    </body>
+</html>
+
+CSS Code ->
+h4 {
+    background-color: white;
+    padding: 5px;
+}
+
+p {
+    background-color: darkgreen;
+    padding: 5px;
+} 
+
+
+Solution:
+1. Set the position of the h4 element to 'absolute'.
+2. Place the heading at the top by setting top to 0px.
+3. Move the heading to the right by setting left to 30px.
+4. Make the color of p element white so it can stand out.
+5. Set the position of the p element to 'absolute'.
+6. Move the p element down by setting top to 150px.
+7. Move the p element to the right by setting left to 220px.
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+Problem:
+Let's design a movie poster using absolute positioning.
+
+
+Availability:
+We added an image and some styled text to get you started.
+HTML Code ->
+<!doctype html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <img src = "https://mimo.app/i/astro-photographer.png" alt = "">
+        <h1>The <br> Empty <br> Sky</h1>
+        <p>MARTIN <br> LAWRENCE</p>
+        <p>ANGELINA <br> JOLIE</p>
+    </body>
+</html>
+
+CSS Code ->
+body {
+    font-family: courier new;
+}
+
+h1 {
+    color: beige;
+    font-size: 50px;
+}
+
+
+Solution:
+1. Make the position of h1 element as 'absolute'.
+2. Position the h1 element by setting top to 60px
+   and left to 30px.
+3. Make the position of the p elements as 'absolute'.
+4. Position the p element by setting top to 400px
+   and color to snow.
+5. Set the paragraph's class name to 'firstActor'
+   and the second paragraph's class name to 'secondActor'.
+6. Move the 'firstActor' class by setting left to 30px.
+7. Move the 'secondActor' class by setting left to 180px.

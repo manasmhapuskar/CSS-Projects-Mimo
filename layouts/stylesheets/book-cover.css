@@ -1,0 +1,22 @@
+.book-cover-img {
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+}
+
+.book-title-p {
+    background-color: wheat;
+    width: 250px;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.book-author-p {
+    background-color: wheat;
+    padding: 5px;
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+}
